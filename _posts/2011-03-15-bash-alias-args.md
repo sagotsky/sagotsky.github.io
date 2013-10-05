@@ -12,7 +12,7 @@ Here’s the alias:
 
 It looks little different if you check it in a shell, but I assure you it works:
 
-```
+```sh
 <03:02:50> sagotsky@calculon:~$ alias arg
 alias arg='sh -c '\''echo $3 $2 $1'\'' --'
 <03:02:54> sagotsky@calculon:~$ arg a b c

@@ -9,7 +9,7 @@ Wrote a script to update my xmobar whenever the volume changes. Previously this 
 
 Anyway, this script is post worthy because it does 3 things that are new for me.
 
-```
+```sh
 #!/bin/sh
 
 # Prints volume changes to stdout.

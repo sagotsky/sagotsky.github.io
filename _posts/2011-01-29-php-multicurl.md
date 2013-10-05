@@ -7,7 +7,7 @@ PHP’s multi_curl has the saddest documentation I’ve ever encountered. What s
 
 Anyway, I’m posting my code because there aren’t enough examples of this kind of code on the web IMO. What this does is grab content from a bunch of hosts. It does this in parallel so that the whole execution time is that of the slowest host. But it also lets you limit how many connections to use at once (meaning that it will be the speed of several of the slowest hosts). This is to prevent PHP from crapping the bed if you open more connections than you have file handles. No, this is not heavily tested, but it’s better than anything I’ve found on google for similar purposes.
 
-```
+```php
 // Report simple running errors
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
 

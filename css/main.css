@@ -158,3 +158,25 @@ ul.posts span {
 .post pre.terminal code {
   background-color: #333;
 }
+
+/***
+ * Custom
+ **/
+
+.timestamp {
+  float: right;
+}
+
+a.title, a:visited.title {
+  color: #a00;
+  font-size: 18pt;
+  text-decoration: none;
+}
+
+a:active.title, a:hover.title {
+  text-decoration: underline;
+}
+
+.post {
+  margin: 3em 0;
+}
