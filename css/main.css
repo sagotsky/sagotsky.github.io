@@ -159,28 +159,3 @@ ul.posts span {
   background-color: #333;
 }
 
-/***
- * Custom
- **/
-
-.timestamp {
-  float: right;
-}
-
-a.title, a:visited.title {
-  color: #a00;
-  font-size: 18pt;
-  text-decoration: none;
-}
-
-a:active.title, a:hover.title {
-  text-decoration: underline;
-}
-
-.post {
-  margin: 3em 0;
-}
-
-.post pre {
-  box-shadow: 1em 1em 15px rgba(10,10,10, .1);
-}

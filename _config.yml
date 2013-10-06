@@ -1,3 +1,4 @@
-name: Your New Jekyll Site
+name: sagotsky.github.io
 markdown: redcarpet
 pygments: true
+url: http://sagotsky.github.io
