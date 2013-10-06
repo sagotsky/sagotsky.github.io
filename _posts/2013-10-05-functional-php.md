@@ -1,6 +1,7 @@
 ---
 title: Functional PHP
 layout: post
+tags: php drupal
 ---
 
 I have a confession to make.  I use PHP.  HackerNews tells me that makes me a bad person.

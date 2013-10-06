@@ -1,6 +1,7 @@
 ---
 title: CLI user switch
 layout: post
+tags: bash gdm
 ---
 
 The new gdm in Karmic Koala is deprecated and featureless.  It does not support this script.  I don’t know if other gdm’s will be so useless, but if you’re on Karmic, don’t waste your time with this one.

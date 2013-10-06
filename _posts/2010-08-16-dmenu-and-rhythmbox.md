@@ -1,6 +1,7 @@
 ---
 title: dmenu and rhythmbox
 layout: post
+tags: bash dmenu music
 ---
 
 

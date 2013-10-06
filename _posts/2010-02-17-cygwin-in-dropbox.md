@@ -1,6 +1,7 @@
 ---
 title: Cygwin in Dropbox
 layout: post
+tags: cygwin
 ---
 
 

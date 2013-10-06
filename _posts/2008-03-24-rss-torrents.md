@@ -1,6 +1,7 @@
 ---
 title: RSS torrents
 layout: post
+tags: rss-torrents bash
 ---
 
 

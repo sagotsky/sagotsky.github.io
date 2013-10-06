@@ -1,6 +1,7 @@
 ---
 title: PHP multi_curl
 layout: post
+tags: php
 ---
 
 PHP’s multi_curl has the saddest documentation I’ve ever encountered. What should have been an afternoon project in total(or 10 minutes in bash with xargs -P) ended up being 2 days to figure out. Now that I think I know how multi_curl works I can start making it actually do something.

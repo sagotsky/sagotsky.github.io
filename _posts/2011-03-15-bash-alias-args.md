@@ -1,6 +1,7 @@
 ---
 title: Bash alias args
 layout: post
+tags: bash
 ---
 
 Long ago I learned that bash’s aliases don’t process args and you should just use functions instead. Turns out you can do args. This isn’t the most useful thing in the world because, well, functions. But it’s still cool.

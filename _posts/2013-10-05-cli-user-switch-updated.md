@@ -1,6 +1,7 @@
 ---
 title: (updated) CLI user switch
 layout: post
+tags: bash gdm
 ---
 
 [Last time]({% post_url 2009-04-30-cli-user-switch %}) we used gdm to switch between virtual terminals.  gdm3 still hasn't restored that feature, so here's what I've been using instead.

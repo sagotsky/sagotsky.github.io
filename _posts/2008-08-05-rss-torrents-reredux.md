@@ -1,6 +1,7 @@
 ---
 title: RSS Torrents re-redux
 layout: post
+tags: rss-torrents
 ---
 
 I had a go at my own downloader.  It’s available at http://code.google.com/p/arrss/

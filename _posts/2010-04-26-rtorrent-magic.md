@@ -1,6 +1,7 @@
 ---
 title: Some light rtorrent magic
 layout: post
+tags: rss-torrents
 ---
 
 

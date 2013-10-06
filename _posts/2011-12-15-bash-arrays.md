@@ -1,6 +1,7 @@
 ---
 title: I finally used a bash array in a way that made sense and required no googling
 layout: post
+tags: bash
 ---
 
 

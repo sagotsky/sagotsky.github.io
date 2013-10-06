@@ -1,6 +1,7 @@
 ---
 title: Volume Notifications
 layout: post
+tags: bash xmobar
 ---
 
 

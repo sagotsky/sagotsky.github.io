@@ -1,6 +1,7 @@
 ---
 title: RSS torrents redux
 layout: post
+tags: rss-torrents
 ---
 
 I’m still using pytvshows and I’m pretty happy with it. The only problem is that it is limited to tvrss.net. I tried adding support for other RSS feeds, but it just wasn’t happening. tvrss.net only misses one of my shows (and a whole lot of the better half’s shows) so it’s not really a big deal.
