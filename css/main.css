@@ -180,3 +180,7 @@ a:active.title, a:hover.title {
 .post {
   margin: 3em 0;
 }
+
+.post pre {
+  box-shadow: 1em 1em 15px rgba(10,10,10, .1);
+}
