@@ -22,9 +22,18 @@ a:active.title, a:hover.title {
   margin: 3em 0;
 }
 
+ul.posts>li.post {
+  border-bottom: 1px white solid;
+  padding-bottom: 1.5em;
+}
+
 .post pre {
   box-shadow: 0 0 15px rgba(10,10,10, .05) inset,
               1em 1em 15px rgba(0,0,0, .1);
   padding: 1em;
   border-color: #ccc;
+}
+
+h1,h2,h3,h4,h5,h6,a.title {
+  font-family: 'Libre Baskerville', serif;
 }
