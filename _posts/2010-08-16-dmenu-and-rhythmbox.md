@@ -7,7 +7,7 @@ layout: post
 
 dmenu is cool. For a while I’ve been wanting to use it to jump to new tracks in rhythmbox. Had I realized how easy it was, I’d have done this sooner.
 
-```sh
+```bash
 #!/bin/sh
 
 # selects song from dmenu, plays in rhythmbox

@@ -15,7 +15,7 @@ Why does this make a difference? Because read has the -a option, which tells rea
 
 The end result was that I could run the following:
 
-```sh
+```bash
 find $PATH -printf '%h %f\n' | while read -a foo ; do
 DIR=${foo[0]}
 FILE=${foo[1]}

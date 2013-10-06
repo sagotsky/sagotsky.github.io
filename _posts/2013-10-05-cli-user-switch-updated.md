@@ -9,7 +9,7 @@ layout: post
 
 This command existed the whole time.  I guess I just found the gdmflexiserver option first.  Here's the script:
 
-```sh
+```bash
 #!/bin/bash
 
 # switch to a user or make a new login screen

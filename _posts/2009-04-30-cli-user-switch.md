@@ -17,7 +17,7 @@ Where # is the number of the virtual console you’d like to switch to.
 
 I also wrote a script to get a list of running xservers, grep for a username, and switch to the first console owned by that user. It’s not robust or complete, but gdmflexiserver seems arcane so I’m publishing this anyway and hopefully someone will find it useful.
 
-```sh
+```bash
 #!/bin/bash
 
 # Takes an arg, switches to that user's gdm session or starts a new one

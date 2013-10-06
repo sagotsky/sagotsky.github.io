@@ -38,7 +38,7 @@ Ran into more username problems.  This time it was the same name being problemat
 
 Here’s the script. Consider this a work in progress.:
 
-```sh
+```bash
 #!/bin/sh
 
 # this script attempts to handle /etc/passwd and /etc/group in a portable

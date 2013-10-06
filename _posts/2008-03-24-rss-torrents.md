@@ -25,7 +25,7 @@ Right now I use two cronjobs to handle the actual downloads. I have an rsstv fol
 
 Here’s the ctorrent script. It has a lot of debuggery messages in there at the moment that could probably be removed. Oh well.
 
-```sh
+```bash
 #!/bin/bash
 # run this as a cronjob to handle torrents pulled from RSS
 
