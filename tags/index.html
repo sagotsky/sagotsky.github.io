@@ -1,0 +1,27 @@
+---
+layout: default
+title: sagotsky.github.io
+---
+
+<script type="text/javascript" src="/js/tags.js"></script>
+
+<div id="home">
+  <form id="tags">
+    {% for tag in site.tags %}
+    <label class="{{tag[0]}}">
+      <input type="checkbox" value="{{tag[0]}}" name="{{tag[0]}}" />
+      <span>{{tag[0]}} <span class="count">{{tag[1]|size}}</span></span>
+    </label>
+    {% endfor %}
+  </form>
+
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+
+    {% for post in site.posts %}
+    <li class="{{ post.tags | join ' ' }}">
+      <a class="title" href="{{post.url}}">{{post.title}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -37,3 +37,32 @@ ul.posts>li.post {
 h1,h2,h3,h4,h5,h6,a.title {
   font-family: 'Libre Baskerville', serif;
 }
+
+form#tags > label > input {
+  display: none;
+}
+
+form#tags > label > input + span {
+  color: #aaa;
+  padding: 0 1em;
+  border-radius: 4px;
+}
+
+form#tags > label > input + span > span.count {
+  display: none;
+}
+form#tags > label:hover > input + span > span.count {
+  display:inline;
+}
+
+form#tags > label:hover > input + span {
+  box-shadow: 0 0 5px rgba(0,0,0, .05);
+  background-color: rgba(255,255,255, .1);
+}
+
+form#tags > label > input:checked + span {
+  color: #333;
+  background-color: #f0f5fa;
+  border: 1px #ccc solid;
+}
+

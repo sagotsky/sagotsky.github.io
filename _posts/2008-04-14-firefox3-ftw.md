@@ -1,6 +1,7 @@
 ---
 title: Firefox 3 FTW
 layout: post
+tags: foss
 ---
 
 
