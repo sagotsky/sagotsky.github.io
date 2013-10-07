@@ -1,7 +1,7 @@
 ---
 layout: post
 title: FD - find directory
-tags: bash, fd, drupal
+tags: bash fd drupal
 ---
 
 My favorite trick I taught bash is really stupid.  I almost didn't bother with it because it's so dumb it's hardly deserving of an alias.  Then I went and made it and liked it so much it lives in its own separate repository, outside of my dirty pile of dotfiles.  Here's fd:
