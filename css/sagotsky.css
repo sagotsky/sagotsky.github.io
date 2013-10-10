@@ -66,3 +66,16 @@ form#tags > label > input:checked + span {
   border: 1px #ccc solid;
 }
 
+code {
+  color: #37254E;
+}
+
+post a, post a:visited {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-shadow: 0 0 1px black, 0 0 3px rgba(0, 0, 0, 0.5);
+}
+post a:hover, post a:active {
+  color: #ffd;
+  text-decoration: underline;
+}
