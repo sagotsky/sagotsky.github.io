@@ -71,11 +71,9 @@ code {
 }
 
 .post>p>a, .post>p>a:visited {
-  color: #FFFFFF;
-  font-weight: bold;
-  text-shadow: 0 0 1px black, 0 0 3px rgba(0, 0, 0, 0.5);
+  color: #000;
 }
 .post>p>a:hover, .post>p>a:active {
-  color: #ffd;
+  color: #a00;
   text-decoration: underline;
 }
