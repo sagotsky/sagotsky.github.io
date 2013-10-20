@@ -48,20 +48,17 @@ form#tags > label > input {
   display: none;
 }
 
+.tags>a {
+  float: right;
+}
+
+.tags>a,
 form#tags > label > input + span {
   color: #aaa;
   padding: 0 1em;
   border-radius: 4px;
 }
 
-/*
-form#tags > label > input + span > span.count {
-  display: none;
-}
-form#tags > label:hover > input + span > span.count {
-  display:inline;
-}
-*/
 form#tags > label > input + span > span.count {
   opacity: .25;
 }
@@ -73,11 +70,15 @@ form#tags > label > input + span > span.count:after {
   content: ']';
 }
 
+.tags>a,
 form#tags > label:hover > input + span {
   box-shadow: 0 0 5px rgba(0,0,0, .05);
   background-color: rgba(255,255,255, .1);
+  border: 1px transparent solid;
+  margin-left: 1px;
 }
 
+.tags>a:hover, .tags>a:active,
 form#tags > label > input:checked + span {
   color: #333;
   background-color: #f0f5fa;
