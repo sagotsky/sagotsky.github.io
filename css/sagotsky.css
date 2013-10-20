@@ -1,11 +1,17 @@
-
 body {
   background-color: #e5eaef;
   text-shadow: 0 1px #fff;
 }
 
-.timestamp {
+.site {
+  width: 33em;
+  font-size: 120%;
+  padding: 0 .5em;
+}
+
+span.timestamp {
   float: right;
+  color: #888;
 }
 
 a.title, a:visited.title {
@@ -48,11 +54,23 @@ form#tags > label > input + span {
   border-radius: 4px;
 }
 
+/*
 form#tags > label > input + span > span.count {
   display: none;
 }
 form#tags > label:hover > input + span > span.count {
   display:inline;
+}
+*/
+form#tags > label > input + span > span.count {
+  opacity: .25;
+}
+
+form#tags > label > input + span > span.count:before {
+  content: '[';
+}
+form#tags > label > input + span > span.count:after {
+  content: ']';
 }
 
 form#tags > label:hover > input + span {
