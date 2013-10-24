@@ -1,5 +1,5 @@
 body {
-  background-color: #e5eaef;
+  background: url('/css/noise.png') #e5eaef;
   text-shadow: 0 1px #fff;
 }
 
@@ -29,7 +29,7 @@ a:active.title, a:hover.title {
 }
 
 ul.posts>li.post {
-  border-bottom: 1px white solid;
+  border-bottom: 1px rgba(255,255,255, .3) solid;
   padding-bottom: 1.5em;
 }
 
