@@ -57,6 +57,7 @@ form#tags > label > input + span {
   color: #aaa;
   padding: 0 1em;
   border-radius: 4px;
+  border: 1px transparent solid;
 }
 
 form#tags > label > input + span > span.count {
@@ -74,7 +75,6 @@ form#tags > label > input + span > span.count:after {
 form#tags > label:hover > input + span {
   box-shadow: 0 0 5px rgba(0,0,0, .05);
   background-color: rgba(255,255,255, .1);
-  border: 1px transparent solid;
   margin-left: 1px;
 }
 
@@ -90,9 +90,13 @@ code {
 }
 
 .post>p>a, .post>p>a:visited {
-  color: #23b;
+  color: #A00;
+  transition: all .2s;
 }
 .post>p>a:hover, .post>p>a:active {
-  color: #a00;
-  text-decoration: underline;
+  color: #fff;
+  text-shadow: 0 0 3px rgba(0,0,0, .5);
+  text-decoration: none;
+
+  transition: text-shadow .2s;
 }
