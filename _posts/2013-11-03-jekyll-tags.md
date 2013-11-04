@@ -1,7 +1,7 @@
 ---
 title: Jekyll tags
 layout: post
-tags: jekyll blog
+tags: jekyll blog 
 ---
 
 I started (well, reinvigorated) this blog because a) Hacker News told me over and over that devs should blog.  And b) because I needed an excuse to play with Ruby.  Jekyll comes with tags out of the box, but they don't seem to do much.  Of course you can write a generator that makes pages of each tag, but that would be a custom plugin and Github wouldn't compile it.  Since I'm trying to keep this jekyll plugin free (my other blog that I'm still in the process of migrating will be more experimental) I figured I'd see what I could get out of tags as provided.
@@ -54,4 +54,28 @@ Anyway, looping over site.tags and printing tag[0] gives us a list of all the ta
 {% endraw %}
 ```
 
-Note the class.  Each of those links to posts includes the post's tags as a class.  We're going to use javascript to  
+Note the class.  Each of those links to posts includes the post's tags as a class.  We're going to use javascript to show and hide them in the page.  Doing so should be pretty trivial (thanks, Resig!) but I want to do one thing a little abnormal.  I'd like to let the browser store the state of which tags are displayed and hidden.  
+
+To do this I'm using a checkbox input for each of the tags.  The input itself is hidden, but its label and its label's :checked state are styled.  When any of the inputs is clicked, the display is updated to show only the checked inputs.
+
+Javascript has one final task here and that's managing the URL.  I want to be able to link to a tag's page.  If you can't get to a list of similarly tagged pages from a post, what's the point of having tags?  
+
+Instead of making a bunch of tag index pages, I'm going to let the hash value on the tags page determine which tags are shown.  (Sidenote: I was NOT intended to make my tags look like twitter hashtags.  That was either a happy or unfortunate accident depending on your opinion of twitter.)  When the page is loaded, the hash is read in and the named checkboxes become checked.
+
+```js
+tags = window.location.hash.replace('#', '').split(',')
+$('ul.posts li').hide()
+
+for (var tag in tags) {
+  $('form#tags input[value=' + tags[tag] +']').each(function() {
+    $(this).prop('checked', true);
+```
+
+And when an input is clicked, the current hash is updated.
+
+```js
+enabled = $('input:checked').map(function() {return $(this).attr('value') }); 
+window.location.hash = enabled.toArray().join(',');           
+```
+
+For some odd reason I was expecting the latter of those tasks to be more complicated, but it wasn't.
