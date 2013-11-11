@@ -6,7 +6,7 @@ tags: bash gdm
 
 The new gdm in Karmic Koala is deprecated and featureless.  It does not support this script.  I don’t know if other gdm’s will be so useless, but if you’re on Karmic, don’t waste your time with this one.
 
-—-
+--
 
 I recently switched to xmonad but stuck with a gnome-panel due to my dependence on gnome’s user switcher applet and my girlfriend’s refusal to learn ctrl-alt-f8.  Google told me that several other people were stuck in this situation.
 
