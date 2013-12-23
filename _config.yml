@@ -1,4 +1,6 @@
 name: sagotsky.github.io
 markdown: redcarpet
+redcarpet:
+  extensions: ["tables", "autolink", "fenced_code_blocks"]
 pygments: true
 url: http://sagotsky.github.io

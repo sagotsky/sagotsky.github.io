@@ -44,6 +44,14 @@ h1,h2,h3,h4,h5,h6,a.title {
   font-family: 'Libre Baskerville', serif;
 }
 
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
 form#tags > label > input {
   display: none;
 }
