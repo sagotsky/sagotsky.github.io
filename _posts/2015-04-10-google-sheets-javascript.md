@@ -20,7 +20,7 @@ Google Sheets has a script editor buried in its tools menu.  I'd seen a few tuto
 
 I started by hardcoding the max weights for each of my lifts and the progression for each of the weeks.  Also wrote a function for rounding to numbers divisible by five and mapped the weights to that.  Pretty much what you'd expect.
 
-While trying to figure out how to get that data back into the spreadsheet I found a feature called Named Range.  This let me pick a group of cells and give it a name.  Then I could access it by that name.  A3 became max_bench_press.  Cool!  I was wondering how I'd solve that.
+While trying to figure out how to get that data back into the spreadsheet I found a feature called Named Range.  This let me pick a group of cells and give it a name.  Then I could access it by that name.  A3 became max\_bench\_press.  Cool!  I was wondering how I'd solve that.
 
 But I was still left with figuring out how to run the script and push numbers into the spreadsheet.  This is the magic part.  It turns out you can call your script's functions directly from the spreadsheet.  
 
