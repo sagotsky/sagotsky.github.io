@@ -33,6 +33,10 @@ ul.posts>li.post {
   padding-bottom: 1.5em;
 }
 
+li {
+ margin-bottom: 1em;
+}
+
 .post pre {
   box-shadow: 0 0 15px rgba(10,10,10, .05) inset,
               1em 1em 15px rgba(0,0,0, .1);
